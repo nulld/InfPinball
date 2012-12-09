@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+    <meta title="Infinity Pinball" package="com.0d.infpinball" version="1.0.0" company="nulldivide" />
+    <app path="Export" file="Main" main="com.0d.infpinball.Main" />
+
+    <window width="480" height="800" if="desktop" />
+    <window width="0" height="0" if="web" />
+    <window orientation="portrait" if="mobile" />
+    <window fps="60" />
+
+    <!-- <window shaders="true" if="desktop" /> -->
+
+    <source path="src" />
+
+    <haxelib name="nme" />
+    <haxelib name="actuate" />
+
+    <!--<assets path="Assets/fonts" rename="fonts" include="*.ttf" />
+    <assets path="Assets/images" rename="images" include="*" exclude="icon.svg" />
+
+    <icon path="Assets/images/icon.svg" />
+
+    <assets path="Assets/sounds" rename="sounds" if="web">
+        <sound path="3.mp3" id="sound3" />
+        <sound path="4.mp3" id="sound4" />
+        <sound path="5.mp3" id="sound5" />
+        <music path="theme.mp3" id="soundTheme" />
+    </assets>
+
+    <assets path="Assets/sounds" rename="sounds" unless="web">
+        <sound path="3.wav" id="sound3" />
+        <sound path="4.wav" id="sound4" />
+        <sound path="5.wav" id="sound5" />
+        <music path="theme.mp3" id="soundTheme" />
+    </assets>
+
+
+    <section if="release-sign">
+        <certificate path="C:\Development\Android\eclecticdesignstudio.keystore" if="android" />
+        <certificate path="~/Development/BlackBerry/author.p12" if="blackberry" />
+    </section>
+    -->
+    <haxeflag name="--dead-code-elimination" if="html5" />
+
+</project>
