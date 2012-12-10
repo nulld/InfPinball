@@ -7,10 +7,14 @@ import nme.display.StageScaleMode;
 import nme.Lib;
 
 
+import com.nulld.infpinball.LevelGenerator;
+
 /**
  * @author nulldivide
  */
 class InfPinball extends Sprite {
+
+
 	
 	
 	public function new () {
